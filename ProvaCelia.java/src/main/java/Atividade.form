@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="99" green="99" red="0" type="rgb"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="bardisc" min="-2" pref="327" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="barmem" min="-2" pref="327" max="-2" attributes="0"/>
+                          <Component id="lblmemo" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblmemmin" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                              <Component id="lblmemvmin" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                              <Component id="lblmemmed" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                              <Component id="lblmemvmed" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                              <Component id="lblmemmax" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                              <Component id="lblmemvmax" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="69" max="32767" attributes="0"/>
+                      <Component id="btn1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabel1" alignment="1" min="-2" pref="169" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblcpu" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbldisc" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="lblmincpu" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                                  <Component id="lblcpuvmin" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                                  <Component id="lblcpumed" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                                  <Component id="lblcpuvmed" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                                  <Component id="lblcpumax" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                                  <Component id="lblcpuvmax" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="barcpu" alignment="0" min="-2" pref="327" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="lbldiscmin" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                                  <Component id="lbldiscvmin" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                                  <Component id="lbldiscmed" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                                  <Component id="lbldiscvmed" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                                  <Component id="lbldiscmax" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                                  <Component id="lbldiscvmax" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="26" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblcpu" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="barcpu" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblmincpu" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblcpuvmin" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblcpumed" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblcpuvmed" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblcpumax" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblcpuvmax" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                      <Component id="lblmemo" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="barmem" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblmemmin" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblmemvmin" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblmemmed" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblmemvmed" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblmemmax" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblmemvmax" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="38" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="btn1" min="-2" pref="34" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Component id="lbldisc" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="bardisc" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbldiscmin" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbldiscvmin" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbldiscmed" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbldiscvmed" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbldiscmax" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbldiscvmax" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="btn1">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="66" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Calcular"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JProgressBar" name="barcpu">
+    </Component>
+    <Component class="javax.swing.JProgressBar" name="barmem">
+    </Component>
+    <Component class="javax.swing.JProgressBar" name="bardisc">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblcpu">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CPU"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblmemo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mem&#xf3;ria"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbldisc">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Disco"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblmincpu">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Min:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblcpuvmin">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblcpumed">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="M&#xe9;dio:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblcpuvmed">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblcpumax">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Max:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblcpuvmax">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblmemmin">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Min:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblmemvmin">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblmemmed">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="M&#xe9;dio:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblmemvmed">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblmemmax">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Max:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblmemvmax">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbldiscmin">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Min:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbldiscvmin">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbldiscmed">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="M&#xe9;dio:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbldiscvmed">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbldiscmax">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Max:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbldiscvmax">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Century Gothic" size="11" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="66" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Informa&#xe7;&#xf5;es sobre a m&#xe1;quina"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
